@@ -1,0 +1,6 @@
+services:
+  kartverket2025prosj:
+    image: ${DOCKER_REGISTRY-}kartverket2025prosj
+    build:
+      context: .
+      dockerfile: Kartverket2025prosj/Dockerfile
